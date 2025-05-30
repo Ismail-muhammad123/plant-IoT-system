@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ehealth-monitoring-98172",
+  "private_key_id": "4ba9dd8779dfe2fc11ec8a051ff5f9af97c7002e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxPEzYErX8qdfn\nlkIgvLvwhii4SGYQvH1pTegaLeQZbBBcP1xHJDciaLWuXqJv2VDrIgsU07x5BtmB\nlJYbb067upRNXfWaBW9mN+2qm3BIizDtBrWg+nbxiG1k0Y56reMaZrog9QEMuM8r\nBH9JXwPLHaKuaoBhw9Q/Z8S7bK3wfDY1rHw1tAc/uJd6tplSRJ9kslAqaN62EchC\n+esRSlCmxJ3RRQMAoaNVqg+Jh2FAIvu7dWDKsUpq70Nwv9reJGbrW8n5xpdQaqXi\n7F6NrAGocBjHMbY0xplbsWfvQD3tXYRoR89HOg8BQCoapLGhU/twjceTLA0sJL8n\nT/tJHFe3AgMBAAECggEAHjsNVmu2m+6yc3+HLwNSQT/48Rn0QtWLxKrztIdwWT+7\n+KgcCsxsFRPsLV5Z8Z8NNNYdMsO86Z3X+sjH480UDmRQSHQG4Osdab+Pa+LQf6cy\nRLO4xkkCgcdF9YTi+xzu2EF+bQGtWKirOYiuV2r8ACjBZ2OmG0bmTJxcC6YJczPL\nxvaHVsXFo+sT3/aYP2Yf8bZlsjJ2XY8oB2h7gAVMsHE3PCDoZGpzP4PEKzTNzz00\nf8wIxB20oqi/VAROvWHx8bjAhKBnwccWcL216ng6NNjqDlYVIVWBnJZFBJaA+9wK\n8OT0fmCbTFYOO+EzXMLCRFDb4RQa9DernqLmyNOZNQKBgQDk3NYkdGM1okmHK4x2\nNQx7ehEsBP4Ebv3ehXPH0t6biET6x8BuNRfKKqAROtARly+XvWTOSyITkWOojScz\njpZgM0bV7cUEPBgQQ8QiLL9qv0JMgflGX9eMo7RgF4xUfSEVL5qqLaE7ReuA526M\nu91dO9vrN63tuWHHqm4FTiFaOwKBgQDGQFCMMRfsSlf5AaUiWNtQc5H7lg2Hemvr\ng4D20Mw4KkiLULD2jW8tHOiiO/XvEtVrRmK6gMkIpmAgqOi7m7VLTdbRLsiB9OT2\nnJ+GLFzkeaXTKGtNDAIAaD/dd6TC2mqbjzL4V/dBeaRplQ7XHRZdMBmn0t1yrMpG\no3KYN9HktQKBgBvqfAxyTe+q3gEo5Lc+fUlKeHHAIiP0Te8opBjJtfGOy6szVlub\nCk3UqTWw0NR0do+xwGwRahSs9VUH8rItQFZ3qrpJiHCdy+mf+nqYrricn7+pUvis\nlCRJi6T0+l8L7E8jQWBktHgAbVuJ30g3WicXOBoW7pZCuJScS1NGVnclAoGAf+CC\nVDtig/7cSfjerI4GQRma415Bsc6siAiWCh5abCwSCRLuYsqOGNpZ0DO/Cgvq77xB\n+K0Tf2nZ/ZcWL9VbFozJ8LotiW4OtmgGmgRJkvJInTCoLdV+AQc9krwW4b0DIP44\nUWpkSa6N97C3FthjUY6yLcddIhgEjZXmV/tBfzUCgYEAyMJJUVmPtWXEWfdwQ5BU\n/3HS8jTcU8asstMirXxXa4t/F8nVwLfxIo+F0xgZqBUGeKdVLxaNRpUSct8kdUi+\nan16OmAw/MK0OFDxEY7FdKu3dEMleKA70B6A0b43LIjKpF4S9PHmKaJUucY3qE2H\ne2U7rokNzcqNeY1O0fi0xwg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@ehealth-monitoring-98172.iam.gserviceaccount.com",
+  "client_id": "116306891664501020361",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40ehealth-monitoring-98172.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

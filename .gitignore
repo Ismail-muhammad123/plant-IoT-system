@@ -42,5 +42,5 @@ next-env.d.ts
 
 firebase.js
 
-ehealth-monitoring.json
-src/lib/ehealth-monitoring.json
+# ehealth-monitoring.json
+# src/lib/ehealth-monitoring.json
