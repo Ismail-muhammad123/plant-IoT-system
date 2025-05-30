@@ -35,7 +35,7 @@ export default function Home() {
       });
       setWeather([
         { label: "Temp:", value: `${weatherData.temperature} °C` || "--" },
-        { label: "Humidity:", value: weatherData.humidity || "--" },
+        { label: "Humidity:", value: weatherData.humidity + "%" || "--" },
         { label: "Day light:", value: weatherData.light || "--" }
       ]);
     });
@@ -47,18 +47,20 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-white p-6 space-y-6">
-      <h1 className="text-3xl font-semibold capitalize">My Plants</h1>
-
+    <main className="min-h-screen max-w-[600px] mx-auto bg-white p-6 space-y-6">
+      <h1 className="text-xl font-semibold capitalize">IoT Plant Monitoring System</h1>
+      <hr />
+      <h1 className="text-md font-semibold capitalize">Weather Condition</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {weather.map((stat) => (<PlantStat key={stat.label} label={stat.label} value={stat.value} />))}
       </div>
 
-      <AlertBox
+      {/* <AlertBox
         plant="Eggplant"
         message="This plant needs water (110ml)"
-      />
-
+      /> */}
+      <hr />
+      <h1 className="text-md font-semibold capitalize">My Plants</h1>
       <div className="grid grid-cols-1 gap-4">
         {Object.entries(plantRows).map(([rowId, data]) => (
           <PlantCard id={rowId} key={rowId} name={data.plantName} moisture={data.moisture} />
