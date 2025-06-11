@@ -33,31 +33,41 @@ export async function POST(req) {
     const { temperature, humidity, light, rows } = await req.json();
 
     const batch = db.batch()
-    // for (var element in rows) {
-    //     const { id, moisture, pumpOn } = element;
-    //     const time = new Date().toISOString();
 
-    //     const feedback = await getSuggestion(temperature, humidity, light, moisture);
-    //     batch.set(
-    //         db.collection("rows").doc(
-    //             id),
-    //         {
-    //             feedback,
-    //             moisture,
-    //             pumpOn,
-    //             time,
-    //         },
-    //         { merge: true }
-    //     );
-    // }
+    try {
 
 
-    batch.set(db.collection("weather").doc("tempreature"), { value: temperature }, { merge: true });
+        // for (var element in rows) {
+        //     const { id, moisture, pumpOn } = element;
+        //     const time = new Date().toISOString();
 
-    batch.set(db.collection("weather").doc("humidity"), { value: humidity }, { merge: true });
+        //     const feedback = await getSuggestion(temperature, humidity, light, moisture);
+        //     batch.set(
+        //         db.collection("rows").doc(
+        //             id),
+        //         {
+        //             feedback,
+        //             moisture,
+        //             pumpOn,
+        //             time,
+        //         },
+        //         { merge: true }
+        //     );
+        // }
 
-    batch.set(db.collection("weather").doc("light"), { value: light }, { merge: true });
 
-    await batch.commit();
-    return NextResponse.json({ message: "Data updated" });
+        batch.set(db.collection("weather").doc("tempreature"), { value: temperature }, { merge: true });
+
+        batch.set(db.collection("weather").doc("humidity"), { value: humidity }, { merge: true });
+
+        batch.set(db.collection("weather").doc("light"), { value: light }, { merge: true });
+
+        await batch.commit();
+        return NextResponse.json({ message: "Data updated" });
+    } catch (error) {
+        return new Response(JSON.stringify({ error: error.message }), {
+            status: 500,
+            headers: { 'Content-Type': 'application/json' },
+        });
+    }
 }
